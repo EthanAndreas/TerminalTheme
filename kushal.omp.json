@@ -39,7 +39,7 @@
           "type": "shell"
         },
         {
-          "background": "#25d2cc",
+          "background": "#7dddda",
           "background_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#16B1AC{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#16B1AC{{ end }}",
@@ -66,12 +66,12 @@
   "osc99": true,
   "transient_prompt": {
     "background": "transparent",
-    "foreground": "#FEF5ED",
+    "foreground": "#d5e4e5",
     "template": "\ue285 "
   },
   "secondary_prompt": {
     "background": "transparent",
-    "foreground": "#D6DEEB",
+    "foreground": "#cddbf1",
     "template": "\u2570\u2500\u276f "
   },
   "version": 2
