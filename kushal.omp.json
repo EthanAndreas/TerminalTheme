@@ -39,12 +39,20 @@
           "type": "shell"
         },
         {
+          "background": "#029095",
+          "foreground": "#ffffff",
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
+          "template": " {{ .Folder }} ",
+          "type": "path"
+        },
+        {
           "background": "#d5e4e5",
           "background_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}#16B1AC{{ end }}",
-            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#16B1AC{{ end }}",
-            "{{ if gt .Ahead 0 }}#B787D7{{ end }}",
-            "{{ if gt .Behind 0 }}#B787D7{{ end }}"
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#ffffff{{ end }}",
+            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#ffffff{{ end }}",
+            "{{ if gt .Ahead 0 }}#ffffff{{ end }}",
+            "{{ if gt .Behind 0 }}#ffffff{{ end }}"
           ],
           "foreground": "#0e5553",
           "powerline_symbol": "\ue0b0",
