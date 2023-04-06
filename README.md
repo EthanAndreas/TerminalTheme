@@ -11,11 +11,12 @@ Add in .bashrc in <user> directory
 eval "$(oh-my-posh --init --shell bash --config $HOME/.theme/turquoise.omp.json)"
 ```
 
-## For windows, add in $PROFILE
+## For windows
 Install oh-my-posh
 ```pwsh
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
+Add in $PROFILE
 ```pwsh
 oh-my-posh init pwsh --config "C:\Users\ethan\.theme\turquoise.omp.json" | Invoke-Expression
 ```
