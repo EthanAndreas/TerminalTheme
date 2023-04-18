@@ -1,4 +1,7 @@
 # Terminal theme
+[![version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/EthanAndreas/TerminalTheme)
+[![compiler](https://img.shields.io/badge/compiler-gcc-red.svg)](https://github.com/EthanAndreas/TerminalTheme/blob/main/Makefile)
+[![author](https://img.shields.io/badge/author-EthanAndreas-blue)](https://github.com/EthanAndreas)
 
 ## For ubuntu
 Install oh-my-posh
